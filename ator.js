@@ -1,5 +1,5 @@
 //Posições
-let xAtor = 80;
+let xAtor = 200;
 let yAtor = 365;
 let colisao = false;
 let meusPontos = 0;
