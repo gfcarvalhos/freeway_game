@@ -1,12 +1,12 @@
 function setup() {
   createCanvas(500, 400);
+  somDaTrilha.loop();
 }
 
 function draw() {
   background(imagemDaEstrada);
   mostraAtor();
   mostraCarro();
-  mostraMouse();
   movimentaCarro();
   movimentaAtor();
   voltaPosicaoInicialDoCarro()
@@ -15,6 +15,3 @@ function draw() {
   marcaPonto();
 }
 
-function mostraMouse(){
-  ellipse(mouseX,mouseY,15);
-}
