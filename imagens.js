@@ -3,7 +3,7 @@ let imagemDoAtor;
 let imagemDoCarro;
 let imagemDoCarro2;
 let imagemDoCarro3;
-let imagemCarros;
+let imagemCarros = [];
 
 function preload(){
   imagemDaEstrada = loadImage("material/estrada.png");
