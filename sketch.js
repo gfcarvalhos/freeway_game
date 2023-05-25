@@ -11,6 +11,8 @@ function draw() {
   movimentaAtor();
   voltaPosicaoInicialDoCarro()
   verificaColisao();
+  incluiPontos();
+  marcaPonto();
 }
 
 function mostraMouse(){
